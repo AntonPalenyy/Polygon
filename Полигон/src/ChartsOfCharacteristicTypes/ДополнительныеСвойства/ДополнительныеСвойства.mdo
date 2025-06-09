@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f111cbd-b3ff-4d77-9a7f-454ca5e06693">
+  <producedTypes>
+    <objectType typeId="43a02541-3b87-4cee-a976-8413181c9b08" valueTypeId="04a52e88-a25a-4b32-8f62-ea3cc2e24073"/>
+    <refType typeId="4575ace1-3785-4451-b3e4-0e31635beabe" valueTypeId="d810cb91-8347-4c39-b808-149a20ecae63"/>
+    <selectionType typeId="7d259621-8fd1-421e-b4cb-eec9ec664d81" valueTypeId="2ddbb548-8fb7-4ffc-b39a-1a491cde3c94"/>
+    <listType typeId="7344e555-eeb7-462c-b0a5-e2549881757a" valueTypeId="eacb6f4d-7b98-4ef9-99a4-12a9b27122e4"/>
+    <managerType typeId="ed9253f0-c3aa-4342-a92e-a0925e197627" valueTypeId="757903ac-d7e5-49da-a62b-26cb55663047"/>
+    <containerType typeId="39908058-4572-4fbe-9696-9420beace711" valueTypeId="099b02e6-dc58-429b-aa98-0a838ad189e0"/>
+  </producedTypes>
+  <name>ДополнительныеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойств</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияСвойств</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0c6f49a9-61d1-46ce-b026-7d6efba2dba4">
+      <name>СвойстваНоменклатуры</name>
+      <description>Свойства номенклатуры</description>
+      <isFolder>true</isFolder>
+      <code>000000001</code>
+      <type/>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

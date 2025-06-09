@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60d756a9-3e7b-449e-b086-badceb9c66b0">
+  <producedTypes>
+    <objectType typeId="b162a6e1-b872-40cc-99ee-45a4eb50b3a1" valueTypeId="ceb8f26c-4904-40ac-8cd8-66180cea85ec"/>
+    <managerType typeId="ad5791ea-28f4-43d1-b6f0-ca495694788b" valueTypeId="cba19b51-b90b-414c-a6f5-53ea1cd3e749"/>
+  </producedTypes>
+  <name>АнализВытеснений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ вытеснений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АнализВытеснений.Form.Форма</defaultForm>
+  <forms uuid="cf2c7385-16f3-40ce-b4d3-dfb63628020d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

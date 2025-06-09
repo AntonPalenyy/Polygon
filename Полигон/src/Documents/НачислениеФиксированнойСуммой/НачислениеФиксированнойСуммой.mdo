@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bc19d6e-2c86-49ff-b499-5b8b106b63b1">
+  <producedTypes>
+    <objectType typeId="3cfef589-6711-4d82-b6a4-7b602d05083a" valueTypeId="c5ed6aef-66cc-4ec6-ab6e-36501bde0c80"/>
+    <refType typeId="4792059b-90f0-457d-92e7-c7781288db6c" valueTypeId="5312188a-6373-498c-befa-6e4d723e71f4"/>
+    <selectionType typeId="30dbeeb1-c379-4548-8465-5decf2ccdd3b" valueTypeId="afd1a829-b57c-42e8-951a-53a00d3ea296"/>
+    <listType typeId="39752136-0e7a-42fb-9a6d-f0b39f058af7" valueTypeId="55b002c0-46d7-40a6-b2a0-c6fff917a0e6"/>
+    <managerType typeId="bc0ee9f3-be7e-4984-9f1c-ff64af684875" valueTypeId="7f94a416-f0b3-46f4-88e4-497be8b13995"/>
+  </producedTypes>
+  <name>НачислениеФиксированнойСуммой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление фиксированной суммой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеФиксированнойСуммой.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.Начисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="92909e1f-28c0-42ec-b7d8-8920a1cfd8a6">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Начисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b25df8f5-d1ec-4a8d-96e3-b47383b0490a">
+    <producedTypes>
+      <objectType typeId="c4e6fc1f-1277-443c-b46a-746b5887b526" valueTypeId="f3c904eb-ade8-4c12-a538-71d879c1d4b7"/>
+      <rowType typeId="4450b286-97d4-491d-ac48-b53b7e54f2f0" valueTypeId="c4674f9b-c7f5-450c-badf-68f06e221633"/>
+    </producedTypes>
+    <name>Начисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисления</value>
+    </synonym>
+    <attributes uuid="f3c15781-e17a-428b-a8ad-68a7187e218d">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49060205-009d-4552-80e9-b7bad2f95d5f">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

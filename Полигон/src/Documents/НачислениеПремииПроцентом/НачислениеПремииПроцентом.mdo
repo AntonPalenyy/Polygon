@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8c3e106-c103-4c50-af30-4fdb7f56d91c">
+  <producedTypes>
+    <objectType typeId="1b16fd0f-1f19-434e-8d86-061a10e8e712" valueTypeId="bf221dc1-e2bb-4b2d-8a10-5c6d6854f111"/>
+    <refType typeId="8025ec0a-0c13-4219-bd4a-7b7ef27fc1f3" valueTypeId="4f53d967-54ee-4c72-8245-ca888e02af53"/>
+    <selectionType typeId="2cd688bf-993a-40a2-b15e-a43daeee310e" valueTypeId="2b4ec644-7283-4ff7-973d-5c5a2462dd6c"/>
+    <listType typeId="5fd37fb3-567a-4083-832c-006b21782fa0" valueTypeId="16e36397-64ff-4ebc-a03f-f1aff33d8c43"/>
+    <managerType typeId="e21f91a8-2e01-4a54-9468-68a5dcd471dd" valueTypeId="ae9598b3-01d3-49ad-ace8-3787d9a24530"/>
+  </producedTypes>
+  <name>НачислениеПремииПроцентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление премии процентом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеПремииПроцентом.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.Начисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="8b3d9ec6-0d8b-43d3-984f-b6a9a6e20d40">
+    <producedTypes>
+      <objectType typeId="ac7931c5-6fd6-4b87-bb65-54a6c35b67da" valueTypeId="67be4d4f-7b73-4c5b-b29f-14a80d6f8dcf"/>
+      <rowType typeId="ee7bcdde-a15b-4f4b-82be-2ea8d84188b6" valueTypeId="a7fc2733-ce9e-4727-b5ba-ab36a84044ae"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="6409043b-5424-49da-b10b-80cc5fc8f19e">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51017c0f-4e95-4b29-93ea-6dc57db779a7">
+      <name>ПроцентПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55868c95-1ec9-4f19-878b-e129f40a9a61">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4ec40786-1764-44a5-8ab4-c13551f51a2d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b4c50123-e6b4-4735-a93e-2c448fc476e2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8321f8be-20b5-4769-993f-355f1dd3e352"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6b39c1bd-b211-4e13-bc61-9040723e56cd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="398ff4ea-41fe-426e-8e51-2c48080419eb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a3ee0e8-bd65-494f-98f5-4fc677760ff3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="95b5f21f-89c0-465e-9adc-b3bba0d72aa6"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="f6270898-9514-448c-861e-1123b48b1cb8">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЗначенияСвойств</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.НачислениеФиксированнойСуммой</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.НачислениеПремииПроцентом</documents>
+  <reports>Report.Закупки</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <dataProcessors>DataProcessor.АнализВытеснений</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияДополнительныхСвойств</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеГрафика</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойства</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Корреспонденция</accountingRegisters>
+  <accountingRegisters>AccountingRegister.БезКорреспонденции</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+</mdclass:Configuration>

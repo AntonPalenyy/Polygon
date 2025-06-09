@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3f9008a-1cf5-4662-97a8-5cedb6204200">
+  <producedTypes>
+    <objectType typeId="c046bcd5-2334-45a3-90ae-6fdcd02a9068" valueTypeId="961c75a5-2515-4d06-94f6-0e67dffec40b"/>
+    <refType typeId="e9ee0b24-064a-40f8-96d9-e0fbb93810bd" valueTypeId="d903562a-dfb1-4b35-ab72-8f9de159e9a9"/>
+    <selectionType typeId="4c023510-b3c3-4027-8f58-32811e246c4a" valueTypeId="e7930884-9bcc-46af-baf6-74dff455b55a"/>
+    <listType typeId="85cb7376-eba3-4438-9bbc-397669ea24d5" valueTypeId="02ca8845-42ba-4d5a-a957-7dffd00fadf2"/>
+    <managerType typeId="63797854-3c3c-4a09-bcc7-be6d5d29483a" valueTypeId="846525f1-308b-41a1-a85e-df5cc28faf6e"/>
+    <displacingCalculationTypesType typeId="8b78f289-5524-4044-b99c-0d983e9c75f8" valueTypeId="00c044c8-11e3-424e-a2d8-b2ee47c6caba"/>
+    <displacingCalculationTypesRowType typeId="b6c7b7b4-6af9-4903-a4b1-aaf3da739fb4" valueTypeId="d8963b66-dff6-45c3-b2dd-9e0967669b87"/>
+    <baseCalculationTypesType typeId="fd5e29bf-422e-4935-9b1d-387caf09b1a6" valueTypeId="7c74aa21-1527-4639-ab8a-f78a0542cdad"/>
+    <baseCalculationTypesRowType typeId="c8128180-945e-4098-a8db-ed0d843fbc13" valueTypeId="4d3aeafa-1152-43c1-9ee1-cefbf513743b"/>
+    <leadingCalculationTypesType typeId="52849bb0-8ec1-4372-8b9d-8c722f9892c0" valueTypeId="bac4341a-aff3-4dd5-bf82-2fcb1ad44fe6"/>
+    <leadingCalculationTypesRowType typeId="a7715085-1959-4eb5-9f98-f2bb03aef1a5" valueTypeId="e63a6015-c8c9-428f-8815-fb332dc8ba6d"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.Начисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.Начисления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.Начисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="4050e87b-2e37-41e5-ac17-5c501a2f0850">
+      <name>Больничный</name>
+      <description>Больничный</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <base>ChartOfCalculationTypes.Начисления.Оклад</base>
+      <leading>ChartOfCalculationTypes.Начисления.Оклад</leading>
+    </items>
+    <items id="c85f115c-7a8a-4fbc-a975-80a3eb01b17c">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <displaced>ChartOfCalculationTypes.Начисления.Больничный</displaced>
+      <displaced>ChartOfCalculationTypes.Начисления.Отпуск</displaced>
+    </items>
+    <items id="8ff06c24-1784-4080-830e-5275d5172596">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <displaced>ChartOfCalculationTypes.Начисления.Больничный</displaced>
+      <base>ChartOfCalculationTypes.Начисления.Оклад</base>
+      <leading>ChartOfCalculationTypes.Начисления.Оклад</leading>
+    </items>
+    <items id="16861bb1-192f-44b3-99ea-56d11cc8f362">
+      <name>ПремияПроцентом</name>
+      <description>Премия процентом</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <base>ChartOfCalculationTypes.Начисления.Оклад</base>
+      <leading>ChartOfCalculationTypes.Начисления.Оклад</leading>
+    </items>
+    <items id="0b2f0173-59b1-4fd0-9acc-b8aac629be57">
+      <name>ФиксированнаяПремия</name>
+      <description>Фиксированная премия</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

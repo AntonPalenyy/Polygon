@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8ee932b-c564-4dcd-9b29-b54d2b72d0fb">
+  <producedTypes>
+    <objectType typeId="6b4898a2-7147-4423-9764-e6c3b267bcf9" valueTypeId="f1ffeeca-f559-4e40-9bda-be7ec1ce45c4"/>
+    <refType typeId="5a1ce705-b8fd-4581-acba-d3906a336a9b" valueTypeId="019bebfd-3ad4-416c-9519-559483a88baf"/>
+    <selectionType typeId="4ac2a6c3-19f2-4adc-8637-492bee9764de" valueTypeId="1ed2a572-4ac5-4898-bbc7-9f4ed8e5e09c"/>
+    <listType typeId="e8d7b88d-8352-4ac8-989c-a5b3c73e4346" valueTypeId="2878d43d-8732-4071-960f-23de8b870ba7"/>
+    <managerType typeId="2ddc986b-af58-4d04-a390-7c4f7813c0fa" valueTypeId="2928a740-144a-44f3-be87-4a35b5b4ee9e"/>
+  </producedTypes>
+  <name>БухгалтерскаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерская операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БухгалтерскаяОперация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.БухгалтерскаяОперация.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccountingRegister.Корреспонденция</registerRecords>
+  <registerRecords>AccountingRegister.БезКорреспонденции</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="65c93e58-3707-4592-ad06-7ab9a0a6b825">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

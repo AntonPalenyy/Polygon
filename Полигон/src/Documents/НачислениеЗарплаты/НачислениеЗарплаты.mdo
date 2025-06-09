@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fa7dfd8-c62f-4129-a101-3d7a2e5ec834">
+  <producedTypes>
+    <objectType typeId="4ce6322e-bc6c-4c49-9dcd-e3c7e1d94cd6" valueTypeId="8ed772a1-9f45-4fd8-b082-957a43668b49"/>
+    <refType typeId="22a65c7c-8d11-43c5-a86b-2ff6df2ac8b2" valueTypeId="fa798edb-3458-4511-ad03-a40fe7c3c7b3"/>
+    <selectionType typeId="53f9f16d-f952-4a4d-ba82-d2b344875c6a" valueTypeId="989de5ad-e01b-49ef-a4d8-48b680cf7cbc"/>
+    <listType typeId="110ad3fd-b3ce-41dc-a5f0-0b22bfe86202" valueTypeId="2adefa02-7982-4b40-bea5-8322f11cb8ea"/>
+    <managerType typeId="a9e210b4-0625-4b5f-97b1-4183d40ab0b9" valueTypeId="69c4846c-9fd2-40d8-922f-e4d7ed4acfe0"/>
+  </producedTypes>
+  <name>НачислениеЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.Начисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="acb4fd85-bb65-481d-9523-94d1d01f0050">
+    <producedTypes>
+      <objectType typeId="52eace46-8030-4bc2-a598-173a7ff25d07" valueTypeId="62ba83bb-6d85-4bea-8636-7d0dfcfacc43"/>
+      <rowType typeId="ea4179e1-8e95-4d7b-95f3-83396bd99b61" valueTypeId="06182d36-2cbd-49f9-b680-0904f4ceefce"/>
+    </producedTypes>
+    <name>Начисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисления</value>
+    </synonym>
+    <attributes uuid="aa6a52cb-6801-4c59-8913-d19185fca8ea">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f5bd962e-174a-4974-800f-d61198c61ea5">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.Начисления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e229c082-3259-4c50-9d34-25059bbd0c2e">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d019d79-741c-4c20-9bd5-dde4a8898b28">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="57302b63-0fbc-4027-adbb-a9e71b9dc103">
+      <name>СуммаОклада</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма оклада</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
