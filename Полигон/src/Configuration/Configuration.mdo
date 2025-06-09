@@ -39,6 +39,7 @@
   <catalogs>Catalog.ЗначенияСвойств</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Справочник1</catalogs>
   <documents>Document.БухгалтерскаяОперация</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
