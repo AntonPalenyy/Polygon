@@ -45,6 +45,7 @@
   <documents>Document.НачислениеФиксированнойСуммой</documents>
   <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.НачислениеПремииПроцентом</documents>
+  <documents>Document.ПеремещениеТовара</documents>
   <reports>Report.Закупки</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
   <dataProcessors>DataProcessor.АнализВытеснений</dataProcessors>
