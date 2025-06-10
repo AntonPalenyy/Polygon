@@ -29,7 +29,7 @@
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Комментарий</value>
+      <value>Заметка</value>
     </synonym>
     <type>
       <types>String</types>
