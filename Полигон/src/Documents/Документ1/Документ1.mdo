@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99ca1516-977c-4122-a2c5-d63b8f5b5b51">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99ca1516-977c-4122-a2c5-d63b8f5b5b51">
   <producedTypes>
     <objectType typeId="7dfd830b-75b3-4569-ad07-86244348d76b" valueTypeId="5165f395-7d4a-402f-9db2-d89572ccb099"/>
     <refType typeId="5e7d594e-6dc0-4740-972a-7cc0a3d04da3" valueTypeId="8a3a8213-6f75-4d62-a848-5059a4837c81"/>
@@ -19,10 +19,27 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>15</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b2154488-ce49-469a-b17b-03f1e10c0e5b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
