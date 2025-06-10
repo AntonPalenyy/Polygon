@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48699f50-55f9-431b-a08c-f6aa0e7e2692">
+  <producedTypes>
+    <objectType typeId="d630e962-2b45-4573-9503-dbb277a8370b" valueTypeId="41577869-7b6f-4c20-a19e-a9ea699d87fa"/>
+    <refType typeId="b0b3a5b7-b858-4aab-9c57-3f5cf732ab01" valueTypeId="e077710e-4fe4-46c0-bdc0-98ea83b1c01f"/>
+    <selectionType typeId="985f0269-95c0-4fa1-90dc-59d586f844d6" valueTypeId="e89b6a43-7265-404f-9376-a5a3f6005f5a"/>
+    <listType typeId="ae572e22-bda0-4613-bf5e-0d0bea929720" valueTypeId="ee8ce7cf-f012-44c6-9b23-a9e4dd21474b"/>
+    <managerType typeId="686f5bf7-4fe0-4057-8cc8-c515502f8905" valueTypeId="51744d7c-2a08-46ff-ad41-c31c31c2cc2b"/>
+  </producedTypes>
+  <name>Документ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ2.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b0711abf-a35f-4031-bd04-5209934cbbbc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9acbbf1a-07d1-4ef6-a86e-933f2afea4d3">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38fc4a2c-ff88-4075-9d8d-d94f79e106be">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
